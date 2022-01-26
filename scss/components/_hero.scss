@@ -1,0 +1,27 @@
+.hero{
+    &-section{
+        margin: 0px;
+        max-width: 1920px;
+        position: relative;
+    }
+    &-background{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    &-info{
+        margin-top:10.875rem !important;
+    }
+    &-header{
+        margin-bottom: 1.5rem;
+        color: $white;
+        font-family: $DM;
+        @include rfs(34px);
+    }
+    &-desc{
+        color: $white;
+        font-family: $inter;
+        @include rfs(18px);
+    }
+
+}
