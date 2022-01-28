@@ -1,0 +1,11 @@
+.producthero{
+    &-container{
+        height: 656px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    span{
+        font-size: 50px;
+    }
+}

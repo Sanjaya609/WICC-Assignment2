@@ -7023,17 +7023,27 @@ a {
 .container-wrapper {
   width: 100%; }
 
+.btn {
+  font-size: 1rem;
+  box-sizing: border-box; }
+  .btn-solid {
+    color: green !important;
+    background-color: white; }
+  .btn-green {
+    color: white;
+    background-color: green; }
+
 .header {
   display: flex;
   max-width: 1920px;
   justify-content: space-between;
-  padding: 1.875rem 4rem;
-  background-color: aquamarine; }
+  padding: 1.875rem 4rem; }
   .header-list {
     display: flex;
     align-items: center;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
+    line-height: 16px;
     justify-content: space-between; }
     .header-list li {
       padding-left: 2em; }
@@ -7196,3 +7206,12 @@ a {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 14px; }
+
+.producthero-container {
+  height: 656px;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
+.producthero span {
+  font-size: 50px; }

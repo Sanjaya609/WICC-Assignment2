@@ -1,0 +1,12 @@
+.btn{
+    @include rfs(16px);
+    box-sizing: border-box;
+    &-solid{
+        color: green !important;
+        background-color: white;
+    }
+    &-green{
+        color: white;
+        background-color: green;
+    }
+}
