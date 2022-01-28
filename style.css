@@ -7117,7 +7117,8 @@ a {
 
 .team {
   padding-top: 4rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 5rem;
+  background-color: #F4F4F4; }
   .team-BoardDirector {
     margin-bottom: 0px; }
   .team-Management {
@@ -7174,3 +7175,24 @@ a {
     line-height: 15.6px;
     margin-top: 4px;
     margin-bottom: 0px; }
+
+.footer {
+  padding-top: 86px;
+  padding-bottom: 4.5rem;
+  margin-top: 1rem; }
+  .footer-list {
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #4A4B57; }
+  .footer-listitem {
+    margin-bottom: 1.5rem; }
+  .footer-bar {
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 14px; }

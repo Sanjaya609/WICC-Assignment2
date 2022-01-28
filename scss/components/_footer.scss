@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 86px;
+    padding-bottom: 4.5rem;
+    margin-top: 1rem;
+
+    &-list{
+        list-style: none;
+        font-family: $DM;
+        font-weight: 400;
+        @include rfs(16px);
+        line-height: 16px;
+        color: #4A4B57;
+    }
+    &-listitem{
+        margin-bottom: 1.5rem;
+    }
+    &-bar{
+        margin-top: 1.5rem;
+        justify-content: space-between;
+        font-family: $DM;
+        font-weight: 400;
+        @include rfs(14px);
+        line-height: 14px;
+
+
+    }
+
+}
