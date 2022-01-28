@@ -1,0 +1,65 @@
+.team{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    &-BoardDirector{
+        margin-bottom: 0px;
+    }
+    &-Management{
+        margin-top: 84px;
+    }
+    &-title{
+        font-family: $DM;
+        font-weight: 700;
+        @include rfs(32px);
+        line-height: 48px;
+        color: $navy;
+        margin-bottom: 32px;
+    }
+    &-row{
+        &-title{
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: $DM;
+            font-weight: 500;
+            @include rfs(24px);
+            line-height: 31.2px;
+            color: $navy;
+        }
+    }
+    &-member{
+        padding-top: 40px;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        }
+    &-name{
+        font-family:$DM ;
+        color: #3A3A44;
+        justify-content: center;
+        @include rfs(16px);
+        font-weight:500 ;
+        line-height:20.8px ;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+    &-position{
+        font-family:$DM ;
+        @include rfs(14px);
+        font-weight:400 ;
+        line-height:18.2px ;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+    &-email,&-contact{
+        font-family:$DM ;
+        @include rfs(12px);
+        font-weight:400 ;
+        line-height:15.6px ;
+        margin-top: 4px;
+        margin-bottom: 0px;
+
+    }
+}

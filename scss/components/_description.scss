@@ -1,0 +1,35 @@
+.description{
+    &-row{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    &-title{
+        font-family: $DM;
+        font-weight: 700 ;
+        @include rfs(24px);
+        line-height:31.2px;
+        color: $navy;
+    }
+    &-info{
+        font-family: $inter;
+        font-weight: 400;
+        @include rfs(16px);
+        line-height: 28.8px;
+        color: $grey;
+    }
+    &-list{
+        list-style: none;
+        font-family: $inter;
+        font-weight: 400;
+        @include rfs(16px);
+        line-height: 28.8px;
+        color: $grey;
+        padding-left: 0px;
+          &-item::before {
+            content: "• ";
+            color:green;
+            margin-right: 16px;
+          }
+    }
+}
