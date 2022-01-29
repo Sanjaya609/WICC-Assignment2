@@ -7037,13 +7037,22 @@ a {
   display: flex;
   max-width: 1920px;
   justify-content: space-between;
-  padding: 1.875rem 4rem; }
-  .header-row {
-    justify-content: space-between; }
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem; }
   .header-nav {
     display: flex;
-    justify-content: center;
-    padding-right: 0px; }
+    justify-content: space-between;
+    padding-right: 0px;
+    flex-wrap: wrap; }
+  .header-hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #3A913F;
+    font-size: 20px;
+    display: none;
+    cursor: pointer; }
+    .header-hamburger :focus {
+      outline: none; }
   .header-list {
     display: flex;
     align-items: center;
@@ -7055,6 +7064,17 @@ a {
       padding-left: 2em; }
     .header-list a {
       font-size: 1rem; }
+
+@media screen and (max-width: 992px) {
+  .list {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    line-height: 2; }
+  .list.show {
+    display: flex; }
+  .hamburger {
+    display: block; } }
 
 .list {
   list-style-type: none;
@@ -7253,6 +7273,10 @@ a {
     .producthero-info {
       font-size: 1.375rem; } }
 
+@media screen and (max-width: 992px) {
+  .left {
+    width: min-content; } }
+
 .producttable {
   margin-top: 1.5rem;
   color: #4A4B57;
@@ -7285,3 +7309,47 @@ a {
     border-bottom-left-radius: 0.5rem; }
   .producttable tr:last-child td:last-child {
     border-bottom-right-radius: 0.5rem; }
+
+.productheader {
+  display: flex;
+  max-width: 1920px;
+  justify-content: space-between;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  box-shadow: 2px 2px 10px #cecccc; }
+  .productheader-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    flex-wrap: wrap; }
+  .productheader-hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #3A913F;
+    font-size: 20px;
+    display: none;
+    cursor: pointer; }
+    .productheader-hamburger :focus {
+      outline: none; }
+  .productheader-list {
+    display: flex;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    justify-content: space-between; }
+    .productheader-list li {
+      padding-left: 2em; }
+    .productheader-list a {
+      font-size: 1rem; }
+
+@media screen and (max-width: 992px) {
+  .list {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    line-height: 2; }
+  .list.show {
+    display: flex; }
+  .hamburger {
+    display: block; } }
