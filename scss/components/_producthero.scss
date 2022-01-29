@@ -5,7 +5,29 @@
         display: flex;
         align-items: center;
     }
+    &-row{
+    align-items: center;
+    justify-content: center;
+    }
     span{
-        font-size: 50px;
+        color: #5A5B6A;
+        font-family: $inter;
+        font-weight: 400;
+        @include rfs(32px);
+        line-height: 48px;
+    }
+    &-title{
+        font-family: $DM;
+        font-weight: 700;
+        @include rfs(48px);
+        line-height: 62.4px;
+        color: #2A2A72;
+    }
+    &-info{
+        font-family: $inter;
+        font-weight: 400;
+        @include rfs(22px);
+        line-height: 33px;
+        color:#4A4B57;
     }
 }

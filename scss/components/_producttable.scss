@@ -1,0 +1,51 @@
+.producttable{
+    margin-top: 1.5rem;
+    color:  #4A4B57;
+    border: 1px solid #F5F8FF;
+    white-space: nowrap;
+    background-color: #ffffff;
+    padding: 4rem 0;
+    
+
+    &-table{
+        text-align: center;
+    }
+    tr{
+        color: #4A4B57;
+        line-height: 150%;
+        font-family: $inter !important;
+        font-weight: 400;
+        @include rfs(16px);
+        line-height: 24px;
+        
+    }
+    & tbody tr:nth-child(even){
+        background-color:  #F5F8FF;
+    }
+
+    &-row1{
+        background-color: #35B44B;
+        color: #ffffff !important;
+        font-weight: 500 !important;
+        line-height: 27px !important;
+        @include rfs(18px);
+
+    }
+
+
+    //for this i took help https://stackoverflow.com/questions/628301/css3s-border-radius-property-and-border-collapsecollapse-dont-mix-how-can-i
+    tr:first-child td:first-child { 
+        border-top-left-radius: 0.5rem;
+     }
+
+    tr:first-child td:last-child { 
+        border-top-right-radius: 0.5rem; 
+    } 
+    tr:last-child td:first-child { 
+        border-bottom-left-radius: 0.5rem;
+     }
+    tr:last-child td:last-child { 
+        border-bottom-right-radius: 0.5rem; 
+    }
+
+}

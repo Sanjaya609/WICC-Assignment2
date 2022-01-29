@@ -4,6 +4,14 @@
     justify-content: space-between;
     padding: 1.875rem 4rem;
 
+    &-row{
+        justify-content: space-between;
+    }
+    &-nav{
+        display: flex;
+        justify-content: center;
+        padding-right: 0px;
+    }
     &-list{
         display: flex;
         align-items: center;

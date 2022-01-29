@@ -7038,6 +7038,12 @@ a {
   max-width: 1920px;
   justify-content: space-between;
   padding: 1.875rem 4rem; }
+  .header-row {
+    justify-content: space-between; }
+  .header-nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px; }
   .header-list {
     display: flex;
     align-items: center;
@@ -7213,5 +7219,69 @@ a {
   display: flex;
   align-items: center; }
 
+.producthero-row {
+  align-items: center;
+  justify-content: center; }
+
 .producthero span {
-  font-size: 50px; }
+  color: #5A5B6A;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: calc(1.325rem + 0.9vw);
+  line-height: 48px; }
+  @media (min-width: 1200px) {
+    .producthero span {
+      font-size: 2rem; } }
+
+.producthero-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: calc(1.425rem + 2.1vw);
+  line-height: 62.4px;
+  color: #2A2A72; }
+  @media (min-width: 1200px) {
+    .producthero-title {
+      font-size: 3rem; } }
+
+.producthero-info {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: calc(1.2625rem + 0.15vw);
+  line-height: 33px;
+  color: #4A4B57; }
+  @media (min-width: 1200px) {
+    .producthero-info {
+      font-size: 1.375rem; } }
+
+.producttable {
+  margin-top: 1.5rem;
+  color: #4A4B57;
+  border: 1px solid #F5F8FF;
+  white-space: nowrap;
+  background-color: #ffffff;
+  padding: 4rem 0; }
+  .producttable-table {
+    text-align: center; }
+  .producttable tr {
+    color: #4A4B57;
+    line-height: 150%;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px; }
+  .producttable tbody tr:nth-child(even) {
+    background-color: #F5F8FF; }
+  .producttable-row1 {
+    background-color: #35B44B;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    line-height: 27px !important;
+    font-size: 1.125rem; }
+  .producttable tr:first-child td:first-child {
+    border-top-left-radius: 0.5rem; }
+  .producttable tr:first-child td:last-child {
+    border-top-right-radius: 0.5rem; }
+  .producttable tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem; }
+  .producttable tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem; }
